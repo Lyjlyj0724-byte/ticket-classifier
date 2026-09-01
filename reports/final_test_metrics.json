@@ -1,0 +1,51 @@
+{
+  "overall": {
+    "exp_id": "final_test",
+    "macro_f1": 0.9312,
+    "recall_bug": 0.9178,
+    "notes": "champion e1, train+val 重训, test 唯一一次"
+  },
+  "by_channel": {
+    "email": {
+      "n": 68,
+      "macro_f1": 0.945
+    },
+    "web": {
+      "n": 66,
+      "macro_f1": 0.983
+    },
+    "phone": {
+      "n": 73,
+      "macro_f1": 0.899
+    },
+    "api": {
+      "n": 73,
+      "macro_f1": 0.902
+    }
+  },
+  "by_priority": {
+    "high": {
+      "n": 110,
+      "macro_f1": 0.929
+    },
+    "low": {
+      "n": 90,
+      "macro_f1": 0.922
+    },
+    "medium": {
+      "n": 80,
+      "macro_f1": 0.949
+    }
+  },
+  "by_length": {
+    "short": {
+      "n": 165,
+      "macro_f1": 0.899
+    },
+    "long": {
+      "n": 115,
+      "macro_f1": 0.986
+    }
+  },
+  "recall_bug": 0.918
+}
