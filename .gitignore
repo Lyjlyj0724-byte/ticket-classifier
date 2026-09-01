@@ -1,0 +1,11 @@
+# 数据与产物
+data/
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
