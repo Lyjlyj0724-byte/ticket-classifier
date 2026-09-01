@@ -1,0 +1,6 @@
+exp_id,macro_f1,recall_bug,notes
+e0_rules,0.8366,0.6712,L0 关键词规则
+e1_word_tfidf_lr,0.9459,0.9589,见实验日志
+e2_char_tfidf_lr,0.9597,0.9589,见实验日志
+e3_char_balanced,0.9486,0.8904,见实验日志
+final_test,0.9312,0.9178,champion e1, train+val 重训, test 唯一一次
